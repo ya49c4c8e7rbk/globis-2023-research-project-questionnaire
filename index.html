@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アンケートリダイレクト</title>
+    <script>
+        window.onload = function() {
+            const urls = [
+                "https://forms.gle/QasBfWMBLYqYjb1Q6",
+                "https://forms.gle/XXXXXXXXXXXXXXXX"
+            ];
+            const randomIndex = Math.floor(Math.random() * urls.length);
+            window.location.href = urls[randomIndex];
+        };
+    </script>
+</head>
+<body>
+    <p>リダイレクト中...</p>
+</body>
+</html>
